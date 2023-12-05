@@ -1,10 +1,12 @@
-import Form from "./components/Form"
+import Authenticate from "./components/Authenticate"
+import SignUpForm from "./components/SignUpForm"
 
-function App() {
+const App = () => {
   return (
     <>
     <h1>React Form</h1>
-    <Form/>
+    <SignUpForm/>
+    <Authenticate/>
     </>
   )
 }
